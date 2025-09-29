@@ -4,8 +4,8 @@
   "version": "1.0.0",
   "main": "package.json",
   "scripts": {
-    "start": "sanity start",
-    "build": "sanity build"
+    "start": "node init && sanity start",
+    "build": "node init && sanity build"
   },
   "license": "MIT",
   "author": "Sanidhya Kr. Verma",
