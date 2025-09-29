@@ -23,7 +23,7 @@
     "@testing-library/react": "^15.0.7",
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/user-event": "^14.6.1",
-    "framer-motion": "^12.23.16",
+    "framer-motion": "^12.23.22",
     "minimatch": "10.0.3",
     "node-sass": "^9.0.0",
     "nth-check": "2.1.1",
@@ -35,8 +35,8 @@
     "web-vitals": "^5.1.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "node init && react-scripts start",
+    "build": "node init && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
